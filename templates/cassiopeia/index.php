@@ -283,6 +283,7 @@ $wa->getAsset('style', 'fontawesome')->setAttribute('rel', 'lazy-stylesheet');
     <div class="container">
         <p style="text-align: center; color: #666;">
     Customized by Alex and Group - Forked Joomla 5.4-dev Project
+    2026
      </p>
         </div>
     </footer>
