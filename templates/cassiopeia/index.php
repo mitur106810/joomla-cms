@@ -241,6 +241,11 @@ $wa->getAsset('style', 'fontawesome')->setAttribute('rel', 'lazy-stylesheet');
             </div>
         <?php endif; ?>
     </header>
+    <div style="background: linear-gradient(90deg, #001B4C 0%, #002e5a 100%); color: white; padding: 50px; text-align: center;">
+    <h1>Hadgu IT Portal</h1>
+    <p>Welcome to my  Joomla Project at MIT.</p>
+    <a href="https://www.mitethiopia.edu.et" target="_blank" style="background: #ffcc00; color: #001B4C; padding: 10px 20px; text-decoration: none; border-radius: 50px; font-weight: bold;">Explore MIT</a>
+</div>
 
     <div class="site-grid">
         <div class="grid-child container-component">
