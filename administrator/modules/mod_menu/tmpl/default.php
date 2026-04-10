@@ -28,6 +28,17 @@ if ($root->hasChildren()) {
     echo '<nav class="main-nav-container" aria-label="' . Text::_('MOD_MENU_ARIA_MAIN_MENU') . '">';
     echo '<ul id="menu' . $module->id . '" class="' . $class . '">' . "\n";
 
+    //dddddddddddddddddddddddddddddddddd
+    ?>
+<li class="nav-item">
+    <a href="index.php?option=com_admin&view=sysinfo" class="nav-link">
+        <span class="icon-shield" aria-hidden="true" style="color: #28a745; margin-right: 10px;"></span>
+        <span class="sidebar-item-title">System Audit</span>
+    </a>
+</li>
+<?php
+    //dddddddddddddddddddddddddddddddddd
+
     // WARNING: Do not use direct 'include' or 'require' as it is important to isolate the scope for each call
     $menu->renderSubmenu(ModuleHelper::getLayoutPath('mod_menu', 'default_submenu'), $root);
 
